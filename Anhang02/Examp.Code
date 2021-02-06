@@ -1,0 +1,15 @@
+
+
+
+$table_name:$primary_key_value:$attribute_name = $value
+
+Person:10:vorname  = "Mila"
+Person:10:nachname = "Hoffmann"
+Person:25:vorname  = "Jakob"
+Person:25:nachname = "Krüger"
+
+BeziehungsArt:1:bezeichnung = "Dozent von"
+BeziehungsArt:5:bezeichnung = "Freunde"
+
+
+SET Beziehung:p10:p25:BeziehungsArt BeziehungsArt:5:bezeichnung
