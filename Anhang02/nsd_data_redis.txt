@@ -1,0 +1,106 @@
+hmset Person:1 vorname Mia nachname Müller
+hmset Person:2 vorname Emma nachname Schmidt
+hmset Person:3 vorname Hannah nachname Schneider
+hmset Person:4 vorname Sofia nachname Fischer
+hmset Person:5 vorname Anna nachname Weber
+hmset Person:6 vorname Emilia nachname Meyer
+hmset Person:7 vorname Lina nachname Wagner
+hmset Person:8 vorname Marie nachname Becker
+hmset Person:9 vorname Lena nachname Schulz
+hmset Person:10 vorname Mila nachname Hoffmann
+hmset Person:11 vorname Emily nachname Schäfer
+hmset Person:12 vorname Lea nachname Bauer
+hmset Person:13 vorname Ben nachname Koch
+hmset Person:14 vorname Jonas nachname Richter
+hmset Person:15 vorname Leon nachname Klein
+hmset Person:16 vorname Elias nachname Wolf
+hmset Person:17 vorname Finn nachname Schröder
+hmset Person:18 vorname Noah nachname Neumann
+hmset Person:19 vorname Paul nachname Schwarz
+hmset Person:20 vorname Lukas nachname Braun
+hmset Person:21 vorname Felix nachname Hofmann
+hmset Person:22 vorname Maximilian nachname Zimmermann
+hmset Person:23 vorname Henry nachname Schmitt
+hmset Person:24 vorname Max nachname Hartmann
+hmset Person:25 vorname Jakob nachname Krüger
+
+=> HMGET Person:22 vorname nachname
+
+SET BeziehungsArt:1:bezeichnung "Dozent von"
+SET BeziehungsArt:2:bezeichnung "Wissenschaftlicher Mitarbeiter von"
+SET BeziehungsArt:3:bezeichnung "Wissenschaftliche Hilfskraft von"
+SET BeziehungsArt:4:bezeichnung "Studentische Hilfskraft von"
+SET BeziehungsArt:5:bezeichnung "Freunde"
+SET BeziehungsArt:6:bezeichnung "Bekannte"
+SET BeziehungsArt:7:bezeichnung "Arbeitskollegen"
+
+=> GET BeziehungsArt:1:bezeichnung
+
+SET Beziehung:p1:p9:BeziehungsArt BeziehungsArt:5:bezeichnung
+SET Beziehung:p17:p20:BeziehungsArt BeziehungsArt:5:bezeichnung
+SET Beziehung:p4:p7:BeziehungsArt BeziehungsArt:5:bezeichnung
+SET Beziehung:p5:p19:BeziehungsArt BeziehungsArt:5:bezeichnung
+SET Beziehung:p6:p16:BeziehungsArt BeziehungsArt:5:bezeichnung
+SET Beziehung:p14:p21:BeziehungsArt BeziehungsArt:5:bezeichnung
+SET Beziehung:p2:p21:BeziehungsArt BeziehungsArt:5:bezeichnung
+SET Beziehung:p3:p19:BeziehungsArt BeziehungsArt:5:bezeichnung
+SET Beziehung:p5:p16:BeziehungsArt BeziehungsArt:5:bezeichnung
+SET Beziehung:p12:p15:BeziehungsArt BeziehungsArt:5:bezeichnung
+SET Beziehung:p6:p8:BeziehungsArt BeziehungsArt:5:bezeichnung
+SET Beziehung:p14:p19:BeziehungsArt BeziehungsArt:5:bezeichnung
+SET Beziehung:p13:p25:BeziehungsArt BeziehungsArt:5:bezeichnung
+
+
+SET Beziehung:p1:p3:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p1:p13:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p1:p15:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p1:p11:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p1:p14:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p1:p2:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p1:p19:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p1:p21:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p9:p2:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p9:p6:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p9:p10:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p9:p14:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p9:p18:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p9:p15:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p9:p11:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p17:p2:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p17:p12:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p17:p19:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p17:p21:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p17:p3:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p17:p5:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p17:p8:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p24:p25:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p24:p22:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p24:p8:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p24:p5:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p24:p2:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p24:p6:BeziehungsArt BeziehungsArt:1:bezeichnung
+SET Beziehung:p24:p10:BeziehungsArt BeziehungsArt:1:bezeichnung
+
+
+SET Beziehung:p7:p1:BeziehungsArt BeziehungsArt:2:bezeichnung
+SET Beziehung:p4:p9:BeziehungsArt BeziehungsArt:2:bezeichnung
+SET Beziehung:p20:p17:BeziehungsArt BeziehungsArt:2:bezeichnung
+SET Beziehung:p23:p24:BeziehungsArt BeziehungsArt:2:bezeichnung
+
+
+SET Beziehung:p25:p1:BeziehungsArt BeziehungsArt:3:bezeichnung
+SET Beziehung:p22:p9:BeziehungsArt BeziehungsArt:3:bezeichnung
+SET Beziehung:p8:p17:BeziehungsArt BeziehungsArt:3:bezeichnung
+SET Beziehung:p5:p24:BeziehungsArt BeziehungsArt:3:bezeichnung
+
+
+SET Beziehung:p15:p1:BeziehungsArt BeziehungsArt:4:bezeichnung
+SET Beziehung:p13:p9:BeziehungsArt BeziehungsArt:4:bezeichnung
+SET Beziehung:p11:p17:BeziehungsArt BeziehungsArt:4:bezeichnung
+SET Beziehung:p3:p24:BeziehungsArt BeziehungsArt:4:bezeichnung
+
+
+=> GET Beziehung:p1:p9:BeziehungsArt
+=> scan 0 MATCH *Person* COUNT 100
+=> scan 0 MATCH *bezeichnung* COUNT 100
+=> scan 0 MATCH *p* COUNT 100
