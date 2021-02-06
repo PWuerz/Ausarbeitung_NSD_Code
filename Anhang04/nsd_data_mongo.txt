@@ -1,0 +1,200 @@
+[
+{ 
+"id": 1,
+"vorname": "Mia",
+"nachname": "Müller"
+},
+{ 
+"id": 2,
+"vorname": "Emma",
+"nachname": "Schmidt"
+},
+{ 
+"id": 3,
+"vorname": "Hannah",
+"nachname": "Schneider"
+},
+{ 
+"id": 4,
+"vorname": "Sofia",
+"nachname": "Fischer"
+},
+{ 
+"id": 5,
+"vorname": "Anna",
+"nachname": "Weber"
+},
+{ 
+"id": 6,
+"vorname": "Emilia",
+"nachname": "Meyer"
+},
+{ 
+"id": 7,
+"vorname": "Lina",
+"nachname": "Wagner"
+},
+{
+"id": 8,
+"vorname": "Marie",
+"nachname": "Becker"
+},
+{ 
+"id": 9,
+"vorname": "Lena",
+"nachname": "Schulz"
+},
+{ 
+"id": 10,
+"vorname": "Mila",
+"nachname": "Hoffmann"
+},
+{ 
+"id": 11,
+"vorname": "Emily",
+"nachname": "Schäfer"
+},
+{ 
+"id": 12,
+"vorname": "Lea",
+"nachname": "Bauer"
+},
+{ 
+"id": 13,
+"vorname": "Ben",
+"nachname": "Koch"
+},
+{ 
+"id": 14,
+"vorname": "Jonas",
+"nachname": "Richter"
+},
+{
+"id": 15,
+"vorname": "Leon",
+"nachname": "Klein"
+},
+{ 
+"id": 16,
+"vorname": "Elias",
+"nachname": "Wolf"
+},
+{ 
+"id": 17,
+"vorname": "Finn",
+"nachname": "Schröder"
+},
+{ 
+"id": 18,
+"vorname": "Noah",
+"nachname": "Neumann"
+},
+{ 
+"id": 19,
+"vorname": "Paul",
+"nachname": "Schwarz"
+},
+{ 
+"id": 20,
+"vorname": "Lukas",
+"nachname": "Braun"
+},
+{ 
+"id": 21,
+"vorname": "Felix",
+"nachname": "Hofmann"
+},
+{
+"id": 22,
+"vorname": "Maximilian",
+"nachname": "Zimmermann"
+},
+{ 
+"id": 23,
+"vorname": "Henry",
+"nachname": "Schmitt"
+},
+{ 
+"id": 24,
+"vorname": "Max",
+"nachname": "Hartmann"
+},
+{ 
+"id": 25,
+"vorname": "Jakob",
+"nachname": "Krüger"
+}
+]
+
+
+
+
+
+
+[
+{ 
+"_id": 105,
+"bezeichnung": "Freunde",
+"Beziehungen": [{"pid1": 1, "pid2": 9},{"pid1": 17, "pid2": 20},{"pid1": 4, "pid2": 7},{"pid1": 5, "pid2": 19},{"pid1": 6, "pid2": 16},{"pid1": 14, "pid2": 21},
+                {"pid1": 2, "pid2": 21},{"pid1": 3, "pid2": 19},{"pid1": 5, "pid2": 16},{"pid1": 12, "pid2": 15},{"pid1": 6, "pid2": 8},{"pid1": 14, "pid2": 19},
+                {"pid1": 13, "pid2": 25}]
+},
+{ 
+"_id": 106,
+"bezeichnung": "Bekannte",
+"Beziehungen": [{"pid1": 1, "pid2": 4},{"pid1": 1, "pid2": 7},{"pid1": 1, "pid2": 17},{"pid1": 1, "pid2": 20},{"pid1": 1, "pid2": 23},{"pid1": 1, "pid2": 24},
+                {"pid1": 4, "pid2": 9},{"pid1": 4, "pid2": 17},{"pid1": 4, "pid2": 20},{"pid1": 4, "pid2": 23},{"pid1": 4, "pid2": 24},{"pid1": 7, "pid2": 9},
+                {"pid1": 7, "pid2": 17},{"pid1": 7, "pid2": 20},{"pid1": 7, "pid2": 23},{"pid1": 7, "pid2": 24},{"pid1": 9, "pid2": 17},{"pid1": 9, "pid2": 20},
+                {"pid1": 9, "pid2": 23},{"pid1": 9, "pid2": 24},{"pid1": 2, "pid2": 3},{"pid1": 2, "pid2": 5},{"pid1": 2, "pid2": 6},{"pid1": 2, "pid2": 8},
+                {"pid1": 2, "pid2": 10},{"pid1": 2, "pid2": 11},{"pid1": 2, "pid2": 12},{"pid1": 2, "pid2": 13},{"pid1": 2, "pid2": 14},{"pid1": 2, "pid2": 15},
+                {"pid1": 2, "pid2": 16},{"pid1": 2, "pid2": 19},{"pid1": 2, "pid2": 25},{"pid1": 3, "pid2": 5},{"pid1": 3, "pid2": 6},{"pid1": 3, "pid2": 8},
+                {"pid1": 3, "pid2": 10},{"pid1": 3, "pid2": 11},{"pid1": 3, "pid2": 12},{"pid1": 3, "pid2": 13},{"pid1": 3, "pid2": 14},{"pid1": 3, "pid2": 15},
+                {"pid1": 3, "pid2": 16},{"pid1": 3, "pid2": 21},{"pid1": 3, "pid2": 25},{"pid1": 5, "pid2": 6},{"pid1": 5, "pid2": 8},{"pid1": 5, "pid2": 10},
+                {"pid1": 5, "pid2": 11},{"pid1": 5, "pid2": 12},{"pid1": 5, "pid2": 13},{"pid1": 5, "pid2": 14},{"pid1": 5, "pid2": 15},{"pid1": 5, "pid2": 21},
+                {"pid1": 5, "pid2": 25},{"pid1": 6, "pid2": 10},{"pid1": 6, "pid2": 11},{"pid1": 6, "pid2": 12},{"pid1": 6, "pid2": 13},{"pid1": 6, "pid2": 14},
+                {"pid1": 6, "pid2": 15},{"pid1": 6, "pid2": 19},{"pid1": 6, "pid2": 21},{"pid1": 6, "pid2": 25},{"pid1": 8, "pid2": 10},{"pid1": 8, "pid2": 11},
+                {"pid1": 8, "pid2": 12},{"pid1": 8, "pid2": 13},{"pid1": 8, "pid2": 14},{"pid1": 8, "pid2": 15},{"pid1": 8, "pid2": 16},{"pid1": 8, "pid2": 19},
+                {"pid1": 8, "pid2": 21},{"pid1": 8, "pid2": 25},{"pid1": 10, "pid2": 11},{"pid1": 10, "pid2": 12},{"pid1": 10, "pid2": 13},{"pid1": 10, "pid2": 14},
+                {"pid1": 10,"pid2": 15},{"pid1": 10, "pid2": 16},{"pid1": 10, "pid2": 19},{"pid1": 10, "pid2": 21},{"pid1": 10, "pid2": 25},{"pid1": 11, "pid2": 12},
+                {"pid1": 11,"pid2": 13},{"pid1": 11, "pid2": 14},{"pid1": 11, "pid2": 15},{"pid1": 11, "pid2": 16},{"pid1": 11, "pid2": 19},{"pid1": 11, "pid2": 21},
+                {"pid1": 11, "pid2": 25},{"pid1": 12, "pid2": 13},{"pid1": 12, "pid2": 14},{"pid1": 12, "pid2": 16},{"pid1": 12, "pid2": 19},{"pid1": 12, "pid2": 21},
+                {"pid1": 12, "pid2": 25},{"pid1": 13, "pid2": 14},{"pid1": 13, "pid2": 15},{"pid1": 13, "pid2": 16},{"pid1": 13, "pid2": 19},{"pid1": 13, "pid2": 21},
+                {"pid1": 14, "pid2": 14},{"pid1": 14, "pid2": 16},{"pid1": 14, "pid2": 25},{"pid1": 15, "pid2": 16},{"pid1": 15, "pid2": 19},{"pid1": 15, "pid2": 21},
+                {"pid1": 15, "pid2": 25},{"pid1": 16, "pid2": 19},{"pid1": 16, "pid2": 21},{"pid1": 16, "pid2": 25},{"pid1": 19, "pid2": 21},{"pid1": 19, "pid2": 25},
+                {"pid1": 21, "pid2": 25}]
+},
+{ 
+"_id": 107,
+"bezeichnung": "Arbeitskollegen",
+"Beziehungen": [{"pid1": 4, "pid2": 5},{"pid1": 4, "pid2": 7},{"pid1": 4, "pid2": 8},{"pid1": 4, "pid2": 20},{"pid1": 4, "pid2": 22},{"pid1": 4, "pid2": 23},
+                {"pid1": 4, "pid2": 25},{"pid1": 5, "pid2": 7},{"pid1": 5, "pid2": 8},{"pid1": 5, "pid2": 20},{"pid1": 5, "pid2": 22},{"pid1": 5, "pid2": 23},
+                {"pid1": 5, "pid2": 25},{"pid1": 7, "pid2": 8},{"pid1": 7, "pid2": 20},{"pid1": 7, "pid2": 22},{"pid1": 7, "pid2": 23},{"pid1": 7, "pid2": 25},
+                {"pid1": 8, "pid2": 20},{"pid1": 8, "pid2": 22},{"pid1": 8, "pid2": 23},{"pid1": 8, "pid2": 25},{"pid1": 20, "pid2": 22},{"pid1": 20, "pid2": 23},
+                {"pid1": 20, "pid2": 25},{"pid1": 22, "pid2": 23},{"pid1": 22, "pid2": 25},{"pid1": 23, "pid2": 25}]
+},
+{ 
+"_id": 101,
+"bezeichnung": "Dozent von",
+"Beziehungen": [{"pid1": 1, "pid2": 3},{"pid1": 1, "pid2": 13},{"pid1": 1, "pid2": 15},{"pid1": 1, "pid2": 11},{"pid1": 1, "pid2": 14},{"pid1": 1, "pid2": 2},
+                {"pid1": 1, "pid2": 19},{"pid1": 1, "pid2": 21},{"pid1": 9, "pid2": 2},{"pid1": 9, "pid2": 6},{"pid1": 9, "pid2": 10},{"pid1": 9, "pid2": 14},
+                {"pid1": 9, "pid2": 18},{"pid1": 9, "pid2": 15},{"pid1": 9, "pid2": 11},{"pid1": 17, "pid2": 2},{"pid1": 17, "pid2": 12},{"pid1": 17, "pid2": 19},
+                {"pid1": 17, "pid2": 21},{"pid1": 17, "pid2": 3},{"pid1": 17, "pid2": 5},{"pid1": 17, "pid2": 8},{"pid1": 24, "pid2": 25},{"pid1": 24, "pid2": 22},
+                {"pid1": 24, "pid2": 8},{"pid1": 24, "pid2": 5},{"pid1": 24, "pid2": 2},{"pid1": 24, "pid2": 6},{"pid1": 24, "pid2": 10}]
+},
+{ 
+"_id": 102,
+"bezeichnung": "Wissenschaftlicher Mitarbeiter von",
+"Beziehungen": [{"pid1": 7, "pid2": 1},{"pid1": 4, "pid2": 9},{"pid1": 20, "pid2": 17},{"pid1": 23, "pid2": 24}]
+},
+{ 
+"_id": 103,
+"bezeichnung": "Wissenschaftliche Hilfskraft von",
+"Beziehungen": [{"pid1": 25, "pid2": 1},{"pid1": 22, "pid2": 9},{"pid1": 8, "pid2": 17},{"pid1": 5, "pid2": 24}]
+},
+{ 
+"_id": 104,
+"bezeichnung": "Studentische Hilfskraft von",
+"Beziehungen": [{"pid1": 15, "pid2": 1},{"pid1": 13, "pid2": 9},{"pid1": 11, "pid2": 17},{"pid1": 3, "pid2": 24}]
+}
+]
+
