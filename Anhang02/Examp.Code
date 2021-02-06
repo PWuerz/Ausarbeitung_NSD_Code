@@ -3,13 +3,13 @@
 
 $table_name:$primary_key_value:$attribute_name = $value
 
-Person:10:vorname  = "Mila"
-Person:10:nachname = "Hoffmann"
-Person:25:vorname  = "Jakob"
-Person:25:nachname = "Krüger"
+Person:9:vorname  = "Mila"
+Person:9:nachname = "Hoffmann"
+Person:11:vorname  = "Jakob"
+Person:11:nachname = "Krüger"
 
 BeziehungsArt:1:bezeichnung = "Dozent von"
 BeziehungsArt:5:bezeichnung = "Freunde"
 
 
-SET Beziehung:p10:p25:BeziehungsArt BeziehungsArt:5:bezeichnung
+SET Beziehung:p9:p11:BeziehungsArt BeziehungsArt:1:bezeichnung
