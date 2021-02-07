@@ -1,0 +1,203 @@
+vorname,nachname,pid2,Beziehung
+Mia,Müller,9,Freunde
+Emma,Schmidt,21,Freunde
+Hannah,Schneider,19,Freunde
+Sofia,Fischer,7,Freunde
+Anna,Weber,16,Freunde
+Anna,Weber,19,Freunde
+Emilia,Meyer,8,Freunde
+Emilia,Meyer,16,Freunde
+Lea,Bauer,15,Freunde
+Ben,Koch,25,Freunde
+Jonas,Richter,19,Freunde
+Jonas,Richter,21,Freunde
+Finn,Schröder,20,Freunde
+Mia,Müller,4,Bekannte
+Mia,Müller,7,Bekannte
+Mia,Müller,17,Bekannte
+Mia,Müller,20,Bekannte
+Mia,Müller,23,Bekannte
+Mia,Müller,24,Bekannte
+Emma,Schmidt,3,Bekannte
+Emma,Schmidt,5,Bekannte
+Emma,Schmidt,6,Bekannte
+Emma,Schmidt,8,Bekannte
+Emma,Schmidt,10,Bekannte
+Emma,Schmidt,11,Bekannte
+Emma,Schmidt,12,Bekannte
+Emma,Schmidt,13,Bekannte
+Emma,Schmidt,14,Bekannte
+Emma,Schmidt,15,Bekannte
+Emma,Schmidt,16,Bekannte
+Emma,Schmidt,19,Bekannte
+Emma,Schmidt,25,Bekannte
+Hannah,Schneider,5,Bekannte
+Hannah,Schneider,6,Bekannte
+Hannah,Schneider,8,Bekannte
+Hannah,Schneider,10,Bekannte
+Hannah,Schneider,11,Bekannte
+Hannah,Schneider,12,Bekannte
+Hannah,Schneider,13,Bekannte
+Hannah,Schneider,14,Bekannte
+Hannah,Schneider,15,Bekannte
+Hannah,Schneider,16,Bekannte
+Hannah,Schneider,21,Bekannte
+Hannah,Schneider,25,Bekannte
+Sofia,Fischer,9,Bekannte
+Sofia,Fischer,17,Bekannte
+Sofia,Fischer,20,Bekannte
+Sofia,Fischer,23,Bekannte
+Sofia,Fischer,24,Bekannte
+Anna,Weber,6,Bekannte
+Anna,Weber,8,Bekannte
+Anna,Weber,10,Bekannte
+Anna,Weber,11,Bekannte
+Anna,Weber,12,Bekannte
+Anna,Weber,13,Bekannte
+Anna,Weber,14,Bekannte
+Anna,Weber,15,Bekannte
+Anna,Weber,21,Bekannte
+Anna,Weber,25,Bekannte
+Emilia,Meyer,10,Bekannte
+Emilia,Meyer,11,Bekannte
+Emilia,Meyer,12,Bekannte
+Emilia,Meyer,13,Bekannte
+Emilia,Meyer,14,Bekannte
+Emilia,Meyer,15,Bekannte
+Emilia,Meyer,19,Bekannte
+Emilia,Meyer,21,Bekannte
+Emilia,Meyer,25,Bekannte
+Lina,Wagner,9,Bekannte
+Lina,Wagner,17,Bekannte
+Lina,Wagner,20,Bekannte
+Lina,Wagner,23,Bekannte
+Lina,Wagner,24,Bekannte
+Marie,Becker,10,Bekannte
+Marie,Becker,11,Bekannte
+Marie,Becker,12,Bekannte
+Marie,Becker,13,Bekannte
+Marie,Becker,14,Bekannte
+Marie,Becker,15,Bekannte
+Marie,Becker,16,Bekannte
+Marie,Becker,19,Bekannte
+Marie,Becker,21,Bekannte
+Marie,Becker,25,Bekannte
+Lena,Schulz,17,Bekannte
+Lena,Schulz,20,Bekannte
+Lena,Schulz,23,Bekannte
+Lena,Schulz,24,Bekannte
+Mila,Hoffmann,11,Bekannte
+Mila,Hoffmann,12,Bekannte
+Mila,Hoffmann,13,Bekannte
+Mila,Hoffmann,14,Bekannte
+Mila,Hoffmann,15,Bekannte
+Mila,Hoffmann,16,Bekannte
+Mila,Hoffmann,19,Bekannte
+Mila,Hoffmann,21,Bekannte
+Mila,Hoffmann,25,Bekannte
+Emily,Schäfer,12,Bekannte
+Emily,Schäfer,13,Bekannte
+Emily,Schäfer,14,Bekannte
+Emily,Schäfer,15,Bekannte
+Emily,Schäfer,16,Bekannte
+Emily,Schäfer,19,Bekannte
+Emily,Schäfer,21,Bekannte
+Emily,Schäfer,25,Bekannte
+Lea,Bauer,13,Bekannte
+Lea,Bauer,14,Bekannte
+Lea,Bauer,16,Bekannte
+Lea,Bauer,19,Bekannte
+Lea,Bauer,21,Bekannte
+Lea,Bauer,25,Bekannte
+Ben,Koch,14,Bekannte
+Ben,Koch,15,Bekannte
+Ben,Koch,16,Bekannte
+Ben,Koch,19,Bekannte
+Ben,Koch,21,Bekannte
+Jonas,Richter,15,Bekannte
+Jonas,Richter,16,Bekannte
+Jonas,Richter,25,Bekannte
+Leon,Klein,16,Bekannte
+Leon,Klein,19,Bekannte
+Leon,Klein,21,Bekannte
+Leon,Klein,25,Bekannte
+Elias,Wolf,19,Bekannte
+Elias,Wolf,21,Bekannte
+Elias,Wolf,25,Bekannte
+Finn,Schröder,23,Bekannte
+Finn,Schröder,24,Bekannte
+Paul,Schwarz,21,Bekannte
+Paul,Schwarz,25,Bekannte
+Lukas,Braun,23,Bekannte
+Lukas,Braun,24,Bekannte
+Felix,Hofmann,25,Bekannte
+Henry,Schmitt,24,Bekannte
+Sofia,Fischer,5,Arbeitskollegen
+Sofia,Fischer,7,Arbeitskollegen
+Sofia,Fischer,8,Arbeitskollegen
+Sofia,Fischer,20,Arbeitskollegen
+Sofia,Fischer,22,Arbeitskollegen
+Sofia,Fischer,23,Arbeitskollegen
+Sofia,Fischer,25,Arbeitskollegen
+Anna,Weber,7,Arbeitskollegen
+Anna,Weber,8,Arbeitskollegen
+Anna,Weber,20,Arbeitskollegen
+Anna,Weber,22,Arbeitskollegen
+Anna,Weber,23,Arbeitskollegen
+Anna,Weber,25,Arbeitskollegen
+Lina,Wagner,8,Arbeitskollegen
+Lina,Wagner,20,Arbeitskollegen
+Lina,Wagner,22,Arbeitskollegen
+Lina,Wagner,23,Arbeitskollegen
+Lina,Wagner,25,Arbeitskollegen
+Marie,Becker,20,Arbeitskollegen
+Marie,Becker,22,Arbeitskollegen
+Marie,Becker,23,Arbeitskollegen
+Marie,Becker,25,Arbeitskollegen
+Lukas,Braun,22,Arbeitskollegen
+Lukas,Braun,23,Arbeitskollegen
+Lukas,Braun,25,Arbeitskollegen
+Maximilian,Zimmermann,23,Arbeitskollegen
+Maximilian,Zimmermann,25,Arbeitskollegen
+Henry,Schmitt,25,Arbeitskollegen
+Mia,Müller,2,Dozent von
+Mia,Müller,3,Dozent von
+Mia,Müller,11,Dozent von
+Mia,Müller,13,Dozent von
+Mia,Müller,14,Dozent von
+Mia,Müller,15,Dozent von
+Mia,Müller,19,Dozent von
+Mia,Müller,21,Dozent von
+Lena,Schulz,2,Dozent von
+Lena,Schulz,6,Dozent von
+Lena,Schulz,10,Dozent von
+Lena,Schulz,11,Dozent von
+Lena,Schulz,14,Dozent von
+Lena,Schulz,15,Dozent von
+Lena,Schulz,18,Dozent von
+Finn,Schröder,2,Dozent von
+Finn,Schröder,3,Dozent von
+Finn,Schröder,5,Dozent von
+Finn,Schröder,8,Dozent von
+Finn,Schröder,12,Dozent von
+Finn,Schröder,19,Dozent von
+Finn,Schröder,21,Dozent von
+Max,Hartmann,2,Dozent von
+Max,Hartmann,5,Dozent von
+Max,Hartmann,6,Dozent von
+Max,Hartmann,8,Dozent von
+Max,Hartmann,10,Dozent von
+Max,Hartmann,22,Dozent von
+Max,Hartmann,25,Dozent von
+Sofia,Fischer,9,Wissenschaftlicher Mitarbeiter v
+Lina,Wagner,1,Wissenschaftlicher Mitarbeiter v
+Lukas,Braun,17,Wissenschaftlicher Mitarbeiter v
+Henry,Schmitt,24,Wissenschaftlicher Mitarbeiter v
+Anna,Weber,24,Wissenschaftliche Hilfskraft von
+Marie,Becker,17,Wissenschaftliche Hilfskraft von
+Maximilian,Zimmermann,9,Wissenschaftliche Hilfskraft von
+Jakob,Krüger,1,Wissenschaftliche Hilfskraft von
+Hannah,Schneider,24,Studentische Hilfskraft von
+Emily,Schäfer,17,Studentische Hilfskraft von
+Ben,Koch,9,Studentische Hilfskraft von
+Leon,Klein,1,Studentische Hilfskraft von
