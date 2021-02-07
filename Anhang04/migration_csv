@@ -1,0 +1,42 @@
+SQL:
+
+SELECT "personId","vorname","nachname"
+UNION ALL SELECT p.* FROM nsd_ausarbeitung_re.Person p 
+INTO OUTFILE "C:/Users/Philipp/Desktop/persons.csv" FIELDS ENCLOSED BY '' 
+TERMINATED BY ',' ESCAPED BY '"' LINES TERMINATED BY '
+';
+
+SELECT "beziehungsArtId","bezeichnung"
+UNION ALL SELECT p.* FROM nsd_ausarbeitung_re.BeziehungsArt p 
+INTO OUTFILE "C:/Users/Philipp/Desktop/BeziehungsArt.csv" FIELDS ENCLOSED BY '' 
+TERMINATED BY ',' ESCAPED BY '"' LINES TERMINATED BY '
+';
+
+SELECT "vorname","nachname","pid2","Beziehung"
+UNION ALL SELECT p.vorname,p.nachname,b.person2id,a.bezeichnung FROM nsd_ausarbeitung_re.Beziehung b 
+INNER JOIN nsd_ausarbeitung_re.Person p ON p.personId=b.person1id
+INNER JOIN nsd_ausarbeitung_re.BeziehungsArt a ON b.beziehungsartid=a.beziehungsArtId 
+INTO OUTFILE "C:/Users/Philipp/Desktop/Beziehungen.csv" FIELDS ENCLOSED BY '' 
+TERMINATED BY ',' ESCAPED BY '"' LINES TERMINATED BY '
+';
+
+MongoDB: Import per MongoDB Compass -> Drei Collections in diesem Fall: Personen, BeziehungsArt und Beziehungen
+
+
+
+Abfrage:
+
+[{$lookup: {
+  from: 'Personen',
+  localField: 'pid2',
+  foreignField: 'personId',
+  as: 'Beziehung mit'
+}}, {$unwind: {
+  path: '$Beziehung mit'
+}}, {$project: {
+  Beziehung: 1,
+  vorname: 1,
+  nachname: 1,
+  vorname2:'$Beziehung mit.vorname',
+  nachname2:'$Beziehung mit.nachname'
+}}]
