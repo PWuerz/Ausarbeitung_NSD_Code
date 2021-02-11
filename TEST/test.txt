@@ -1,0 +1,6 @@
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/PWuerz/Ausarbeitung_NSD_Code/main/TEST/Nodes.csv" AS row
+CREATE (:Person {id:row.id, name:row.name});
+
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/PWuerz/Ausarbeitung_NSD_Code/main/TEST/Relationship.csv" AS row
+MATCH (p1:Person {id:row.id_from}), (p2:Person {id:row.id_to})
+CREATE (p1)-[:KNOWS]->(p2);
