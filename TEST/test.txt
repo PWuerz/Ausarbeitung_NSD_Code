@@ -1,3 +1,5 @@
+MATCH (n) OPTIONAL MATCH (n)-[r]-() DELETE n,r
+
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/PWuerz/Ausarbeitung_NSD_Code/main/TEST/Nodes.csv" AS row
 CREATE (:Person {id:row.id, name:row.name});
 
