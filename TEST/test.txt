@@ -1,12 +1,15 @@
 MATCH (n) OPTIONAL MATCH (n)-[r]-() DELETE n,r
 
-CREATE INDEX ON :Person(id)
+CREATE INDEX ON :Person(pid)
 
 
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/PWuerz/Ausarbeitung_NSD_Code/main/Anhang03/persons.csv" AS line
-CREATE (:Person { id: line.personId,vorname: line.vorname,nachname: line.nachname})
+CREATE (:Person { pid: line.personId,vorname: line.vorname,nachname: line.nachname})
 
-
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/PWuerz/Ausarbeitung_NSD_Code/main/Anhang03/Beziehungen.csv" AS line
+MATCH (p1:Person {pid: toInteger(line.pid1)}), 
+(p2:Person {pid: toInteger(line.pid2)})
+CREATE (p1)-[:beziehung]->(p2);
 
 
 
@@ -34,8 +37,8 @@ CREATE INDEX ON :Person(id)
 test:
 LOAD CSV FROM "https://raw.githubusercontent.com/PWuerz/Ausarbeitung_NSD_Code/main/TEST/Relationship.csv" AS line
 RETURN line[0],line[1]
-LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/PWuerz/Ausarbeitung_NSD_Code/main/TEST/Rtest.csv" AS line
-RETURN line.pid1,line.pid2
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/PWuerz/Ausarbeitung_NSD_Code/main/Anhang03/Beziehungen.csv" AS line
+RETURN line.pid1,line.pid2,line.Beziehung
 
 LOAD CSV FROM "https://raw.githubusercontent.com/PWuerz/Ausarbeitung_NSD_Code/main/TEST/Relationship.csv" AS line
 MATCH (p1:Person {id:5}),(p2:Person {id:10})
