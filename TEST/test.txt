@@ -1,5 +1,15 @@
 MATCH (n) OPTIONAL MATCH (n)-[r]-() DELETE n,r
 
+CREATE INDEX ON :Person(id)
+
+
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/PWuerz/Ausarbeitung_NSD_Code/main/Anhang03/persons.csv" AS line
+CREATE (:Person { id: line.personId,vorname: line.vorname,nachname: line.nachname})
+
+
+
+
+
 LOAD CSV FROM "https://raw.githubusercontent.com/PWuerz/Ausarbeitung_NSD_Code/main/TEST/Nodes.csv" AS line
 CREATE (:Person { id: line[0],name: line[1]})
 
