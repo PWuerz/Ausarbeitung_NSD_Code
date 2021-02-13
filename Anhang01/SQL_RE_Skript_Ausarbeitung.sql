@@ -318,11 +318,40 @@ INSERT INTO nsd_ausarbeitung_re.Beziehung VALUE (3,24,7);
 -- SELECT p.*,b.beziehungsArtId,b.person2Id FROM nsd_ausarbeitung_re.Person p,nsd_ausarbeitung_re.Beziehung b WHERE p.personid = b.person1Id ORDER BY b.beziehungsArtId;
 -- SELECT p.* FROM nsd_ausarbeitung_re.Person p WHERE p.personid = 9;
 
--- SELECT p.*,b.beziehungsArtId,b.person2Id FROM nsd_ausarbeitung_re.Person p,nsd_ausarbeitung_re.Beziehung b WHERE p.personid = b.person1Id ORDER BY b.beziehungsArtId INTO OUTFILE "C:/Users/Philipp/Desktop/orders.json" FIELDS ENCLOSED BY '' 
--- TERMINATED BY ',' 
--- ESCAPED BY '"' 
--- LINES TERMINATED BY '
--- ';
+SELECT p.*,b.beziehungsArtId,b.person2Id FROM nsd_ausarbeitung_re.Person p,nsd_ausarbeitung_re.Beziehung b WHERE p.personid = b.person1Id ORDER BY b.beziehungsArtId INTO OUTFILE "C:/Users/Philipp/Desktop/orders.csv" FIELDS ENCLOSED BY '' 
+TERMINATED BY ',' 
+ESCAPED BY '"' 
+LINES TERMINATED BY '
+';
+
+SELECT "personId","vorname","nachname"
+UNION ALL SELECT p.* FROM nsd_ausarbeitung_re.Person p 
+INTO OUTFILE "C:/Users/Philipp/Desktop/persons.csv" FIELDS ENCLOSED BY '' 
+TERMINATED BY ',' ESCAPED BY '"' LINES TERMINATED BY '
+';
+
+SELECT "pid1","pid2","Beziehung"
+UNION ALL SELECT b.person1id,b.person2id,a.bezeichnung FROM nsd_ausarbeitung_re.Beziehung b 
+INNER JOIN nsd_ausarbeitung_re.Person p ON p.personId=b.person1id
+INNER JOIN nsd_ausarbeitung_re.BeziehungsArt a ON b.beziehungsartid=a.beziehungsArtId 
+INTO OUTFILE "C:/Users/Philipp/Desktop/Beziehungen.csv" FIELDS ENCLOSED BY '' 
+TERMINATED BY ',' ESCAPED BY '"' LINES TERMINATED BY '
+';
+
+
+SELECT "beziehungsArtId","bezeichnung"
+UNION ALL SELECT p.* FROM nsd_ausarbeitung_re.BeziehungsArt p 
+INTO OUTFILE "C:/Users/Philipp/Desktop/BeziehungsArt.csv" FIELDS ENCLOSED BY '' 
+TERMINATED BY ',' ESCAPED BY '"' LINES TERMINATED BY '
+';
+
+SELECT "vorname","nachname","pid2","Beziehung"
+UNION ALL SELECT p.vorname,p.nachname,b.person2id,a.bezeichnung FROM nsd_ausarbeitung_re.Beziehung b 
+INNER JOIN nsd_ausarbeitung_re.Person p ON p.personId=b.person1id
+INNER JOIN nsd_ausarbeitung_re.BeziehungsArt a ON b.beziehungsartid=a.beziehungsArtId 
+INTO OUTFILE "C:/Users/Philipp/Desktop/Beziehungen.csv" FIELDS ENCLOSED BY '' 
+TERMINATED BY ',' ESCAPED BY '"' LINES TERMINATED BY '
+';
 
 -- Abfrage mit INNER Joins
 SELECT p.vorname,p.nachname,b.person1id,b.person2id,a.bezeichnung FROM nsd_ausarbeitung_re.Beziehung b
